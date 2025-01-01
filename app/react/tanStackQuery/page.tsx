@@ -58,6 +58,8 @@ function TanStackQueryComponent() {
           <li>Supports optimistic updates</li>
           <li>Works seamlessly with React</li>
         </ul>
+        <div className='text-2xl font-semibold text-gray-800'>To install</div>
+        <li>npm install @tanstack/react-query</li>
       </section>
     </div>
   );

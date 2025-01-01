@@ -8,10 +8,17 @@ export default function Home() {
         <p className="text-lg text-gray-700 mt-2">Explore various tools and examples for Next.js</p>
       </header>
 
-      <section className="mt-8 text-center">
+      <section className="mt-8 text-center gap-2 flex flex-col ">
         <Link href="/react/tanStackQuery" className="text-xl text-blue-500 hover:underline">
-          Go to TanStack Query Example
+          TanStack Query Example
         </Link>
+        <Link href="/FramerMotion" className="text-xl text-blue-500 hover:underline">
+         Framer Mition
+        </Link>
+        <Link href="/ChartJS" className="text-xl text-blue-500 hover:underline">
+         ChartJS
+        </Link>
+
       </section>
     </div>
   );
